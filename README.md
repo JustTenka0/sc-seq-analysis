@@ -12,8 +12,7 @@ Single-cell RNA sequencing allows for the characterization of transcriptomic het
 
 ### Key Analysis Steps
 1. **Quality Control (QC) & Filtering:** Removal of low-quality cells, doublets, and damaged cells based on mitochondrial gene expression (`percent.mt`), UMIs, and detected gene counts.
-2. **Normalization & Feature Selection:** Log-normalization and identification of top highly variable genes (HVGs).
+2. **Normalization:** Log-normalization.
 3. **Dimensionality Reduction:** Linear (PCA) and non-linear (UMAP/t-SNE) dimensionality reduction.
-4. **Clustering & Annotation:** Unsupervised graph-based clustering (Louvain algorithm) and cell-type annotation using canonical cell markers (e.g., T cells, B cells, Monocytes, NK cells).
-5. **Differential Expression Analysis:** Identification of cluster marker genes and pathway enrichment analysis.
-
+4. **Clustering & Data Visualization:** Unsupervised graph-based clustering (Louvain algorithm) and data visualization via Heatmap, Feature plot and Dot plot
+5. **Annotation:** Cell-type annotation using canonical cell markers.
